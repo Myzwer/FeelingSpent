@@ -1,0 +1,13 @@
+/*
+ * Navbar SCSS
+ * ---------------------------
+ * This is the scss file to control the styles of the navbar.
+ * A few stylelint rules had to be disabled as navbar's merit them
+ * Most of the "settings" are at the top, but dig around to change more specific things.
+ * Special thanks to https://codepen.io/taniarascia/pen/dYvvYv for the navbar
+ *
+*/
+
+.fc-logo {
+  max-width: 220px;
+}

@@ -1,0 +1,38 @@
+/**
+ * Gradients
+ *
+ * =================================
+ * - Primary Gradient
+ * - Secondary Gradient
+ * - Tertiary Gradient
+ *
+ *
+ *
+ */
+
+.primary-gradient {
+  background: rgb(189, 71, 125);
+  background: linear-gradient(
+    128deg,
+    rgba(189, 71, 125, 1) 0%,
+    rgba(194, 13, 107, 1) 100%
+  );
+}
+
+.secondary-gradient {
+  background: rgb(119, 22, 57);
+  background: linear-gradient(
+    128deg,
+    rgba(119, 22, 57, 1) 0%,
+    rgba(176, 44, 94, 1) 100%
+  );
+}
+
+.tertiary-gradient {
+  background: rgb(185, 169, 167);
+  background: linear-gradient(
+    128deg,
+    rgba(185, 169, 167, 1) 0%,
+    rgba(245, 224, 219, 1) 100%
+  );
+}

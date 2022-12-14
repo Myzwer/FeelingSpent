@@ -1,0 +1,29 @@
+//This can be used anywhere, but it HAS to have relative positioning above it or it won't work.
+.content-middle {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+//content middle ONLY on tablet and higher
+@media screen and (min-width: 768px) {
+  .content-middle-medium {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .content-middle-large {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}

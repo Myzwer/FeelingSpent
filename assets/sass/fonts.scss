@@ -1,0 +1,24 @@
+/*
+* Ok. This BARELY fkn worked. I had to delete all the files in assets/fonts AND assets/css/fonts.css
+* Reload the server and then it FINALLY downloaded the right files.
+* So. Good luck.
+* https://google-fonts.nuxtjs.org/options
+*/
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Nerko One', cursive;
+}
+
+.head-font {
+  font-family: 'Nerko One', cursive;
+}
+
+.body-font {
+  font-family: 'Montserrat', sans-serif;
+}
