@@ -30,25 +30,22 @@ module.exports = {
        * https://tailwindcss.com/docs/customizing-colors#custom-colors
        * */
       white: {
-        DEFAULT: '#eae5df',
+        DEFAULT: '#E8E4D8',
       },
       black: {
         DEFAULT: '#333333',
       },
-      primary: {
-        DEFAULT: '#bd477d',
-        alt: '#c20d6b',
+      orange: {
+        DEFAULT: '#DA895B',
       },
-      secondary: {
-        DEFAULT: '#771639',
-        alt: '#b02c5e',
+      yellow: {
+        DEFAULT: '#EEBC35',
       },
-      tertiary: {
-        DEFAULT: '#b9a9a7',
-        alt: '#f5e0db',
+      red: {
+        DEFAULT: '#D96058',
       },
-      accent: {
-        DEFAULT: '#686aa8',
+      green: {
+        DEFAULT: '#657C13',
       },
     },
   },
