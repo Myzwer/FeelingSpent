@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <div class="index-h1-background">
-      <h1>content</h1>
-    </div>
-  </div>
+	<div>
+		<div class="index-h1-background">
+
+		</div>
+	</div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+	name: 'IndexPage',
 }
 </script>
 

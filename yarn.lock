@@ -1415,6 +1415,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/free-brands-svg-icons@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "@fortawesome/free-brands-svg-icons@npm:6.2.1"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": 6.2.1
+  checksum: e826787631672faed91b0a1f4bf1580582bd20f3aba1a8e547f0b49548d554a0ac629ea9d3998f076fb2574440f75e08536d088404f760c9910b9f185a6877f5
+  languageName: node
+  linkType: hard
+
 "@fortawesome/free-solid-svg-icons@npm:^6.2.1":
   version: 6.2.1
   resolution: "@fortawesome/free-solid-svg-icons@npm:6.2.1"
@@ -15740,6 +15749,7 @@ __metadata:
   dependencies:
     "@babel/eslint-parser": ^7.19.1
     "@fortawesome/fontawesome-svg-core": ^6.2.1
+    "@fortawesome/free-brands-svg-icons": ^6.2.1
     "@fortawesome/free-solid-svg-icons": ^6.2.1
     "@fortawesome/vue-fontawesome": latest-2
     "@nuxtjs/axios": ^5.13.6
