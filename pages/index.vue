@@ -102,6 +102,18 @@
 <script>
 export default {
 	name: 'IndexPage',
+	head() {
+		return {
+			title: "Are you Spent? | Foothills Church", // This is the title that shows in the tab
+			meta:[
+				{ hid: 'og-type', property: 'og:type', content: 'Spent: Living Content in a Spent World' }, // this is what shows when you post the site
+				{ hid: 'og-desc', property: 'og:description', content: 'Page Description Im reasonably sure.' },
+				{ hid: 'og-image', property: 'og:image',
+					content: '/images/spent.jpg'
+				},
+			]
+		};
+	},
 }
 </script>
 
