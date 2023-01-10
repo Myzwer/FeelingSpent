@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<form class="">
+		<form name="contact" method="POST" data-netlify="true">
 			<div class="grid grid-cols-12 gap-4 pt-10 pb-12">
 				<div class="col-span-12 md:col-span-6 text-left mb-6">
 					<input
@@ -39,7 +39,9 @@
 					</label>
 				</div>
 				<div class="col-span-12 text-left">
-					<button class="bg-orange hover:bg-red shadow-lg text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+					<button
+						class="bg-orange hover:bg-red shadow-lg text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+						type="button">
 						Submit
 					</button>
 				</div>
