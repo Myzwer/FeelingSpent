@@ -1,18 +1,24 @@
 <template>
 	<div>
-		<header style="background-color: #234058;">
+		<header style="background-color: #657C13;">
 			<nuxt-link to="/">
+				<div class="relative">
 				<img
 					src="/images/logo.png"
 					alt="marker"
-					class="text-center mx-auto fc-logo p-1"
+					class="text-center mx-auto fc-logo p-3 inline"
 				>
+				<div class="absolute top-7 left-24">
+					<h1 class="text-white-pure text-4xl font-bold">SPENT</h1>
+				</div>
+				</div>
+
 			</nuxt-link>
 		</header>
 		<Nuxt/>
 		<div style="background-color: #234058;">
 			<div class="text-center py-5 text-white">
-			<h6>{{currentYear}} - Foothills Church</h6>
+				<h6>{{ currentYear }} - Foothills Church</h6>
 			</div>
 		</div>
 	</div>
