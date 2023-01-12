@@ -35,6 +35,7 @@ export default {
     '~/assets/sass/navbar.scss',
     '~/assets/sass/background.scss',
     '~/assets/sass/fonts.scss',
+    '~/assets/sass/form.scss',
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
 
