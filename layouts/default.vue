@@ -8,8 +8,8 @@
 					alt="marker"
 					class="text-center mx-auto fc-logo p-3 inline"
 				>
-				<div class="absolute top-7 left-24">
-					<h1 class="text-white-pure text-4xl font-bold">SPENT</h1>
+				<div class="absolute top-6  left-20 ">
+					<h1 class="text-white-pure text-2xl  font-bold">SPENT</h1>
 				</div>
 				</div>
 
