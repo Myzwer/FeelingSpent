@@ -2,17 +2,9 @@
 	<div>
 		<div class="index-h1-background">
 			<div class="py-10">
-				<h1 class="text-center text-black pb-5 text-7xl md:text-9xl">Are You Spent?</h1>
+				<h1 class="text-center text-black font-bold uppercase pb-5 text-4xl">Are You feeling</h1>
 
-				<div class="text-center mx-auto max-w-2xl md:max-w-7xl">
-					<div class="bg-orange border-8 border-black">
-						<div class="grid grid-cols-12 gap-4 pt-10 pb-12">
-							<div class="col-span-12 md:col-span-5 px-5">
-								<h3 class="text-3xl body-font font-bold">Your Total Monthly Budget</h3>
-							</div>
-						</div>
-					</div>
-				</div>
+
 			</div>
 		</div>
 
