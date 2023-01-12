@@ -30,9 +30,9 @@ module.exports = {
        * https://tailwindcss.com/docs/customizing-colors#custom-colors
        * */
       white: {
-        DEFAULT: '#E8E4D8',
+        DEFAULT: '#E6E2D6',
         pure: '#ffffff',
-        alt: `#d5d0c5`
+        alt: `#FBF7EB`
       },
       black: {
         DEFAULT: '#333333',

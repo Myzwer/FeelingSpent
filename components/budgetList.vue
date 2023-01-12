@@ -14,14 +14,14 @@
 					>
 						<img :src="icon" alt="Icon">
 					</div>
-					<div class="inline-block absolute top-2 left-16 md:left-20">
-						<h3 class="font-bold text-lg md:text-2xl">{{ lineItem }}</h3>
+					<div class="inline-block absolute top-2 left-18 md:left-20">
+						<h3 class="font-bold text-xl md:text-2xl">{{ lineItem }}</h3>
 						<p class="-mt-2">{{ displayPercent }}%</p>
 					</div>
 				</div>
 
 				<div class="col-span-2 relative">
-					<div class="inline-block absolute top-4 right-2 md:right-5">
+					<div class="inline-block absolute top-5 right-2 md:right-5">
 						<h3 class="font-bold text-lg md:text-2xl">${{ cost }}</h3>
 					</div>
 				</div>

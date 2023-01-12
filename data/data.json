@@ -1,7 +1,7 @@
 {
   "budget": [
     {
-      "lineItem": "Housing",
+      "lineItem": "Miscellaneous",
       "displayPercent": 25,
       "icon": "/images/icons/house.png",
       "cost": 2500
