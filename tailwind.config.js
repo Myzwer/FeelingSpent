@@ -31,7 +31,8 @@ module.exports = {
        * */
       white: {
         DEFAULT: '#E8E4D8',
-        pure: '#ffffff'
+        pure: '#ffffff',
+        alt: `#d5d0c5`
       },
       black: {
         DEFAULT: '#333333',

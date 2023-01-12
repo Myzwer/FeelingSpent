@@ -11,29 +11,46 @@
 		</div>
 
 		<div class="bg-orange py-12 px-5 -mt-16">
-			<div class="pt-12">
-				<h2 class="md:text-center font-bold text-3xl uppercase">What’s your total monthly budget?</h2>
-				<p class="md:text-center text-xl pb-10">(After Taxes)</p>
-				<div class="text-center mx-auto">
-					<input
-						v-model="number"
-						class="max-w-xl shadow-lg bg-white rounded-xl w-full py-5 px-3 mx-auto text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-						type="number"
-						placeholder="Enter Yearly Salary"
-					/>
+			<div class="max-w-2xl mx-auto">
+				<div class="pt-12 pb-16">
+					<h2 class="md:text-center font-bold text-3xl uppercase">What’s your total monthly budget?</h2>
+					<p class="md:text-center text-xl pb-10">(After Taxes)</p>
+					<div class="text-center mx-auto">
+						<input
+							v-model="number"
+							class="shadow-lg bg-white rounded-xl w-full py-5 px-3 mx-auto text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+							type="number"
+							placeholder="Enter Yearly Salary"
+						/>
+					</div>
 				</div>
+
+				<budgetList
+					v-for="(item, index) in budget"
+					:key="item.name"
+					:line-item="item.lineItem"
+					:display-percent="item.displayPercent"
+					:icon="item.icon"
+					:cost="item.cost"
+					:even="index % 2 === 0"
+				/>
+
+
 			</div>
 		</div>
-
-
 	</div>
 </template>
 
 <script>
+import budgetList from "~/components/budgetList"
+import {budget} from '~/data/data.json'
+
 export default {
 	name: 'IndexPage',
+	components: {budgetList},
 	data() {
 		return {
+			budget,
 			number: null,
 		}
 	},

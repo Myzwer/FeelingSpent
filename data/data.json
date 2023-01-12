@@ -1,0 +1,16 @@
+{
+  "budget": [
+    {
+      "lineItem": "Housing",
+      "displayPercent": 25,
+      "icon": "/images/icons/house.png",
+      "cost": 2500
+    },
+    {
+      "lineItem": "Savings",
+      "displayPercent": 15,
+      "icon": "/images/icons/dollar.png",
+      "cost": 1500
+    }
+  ]
+}
