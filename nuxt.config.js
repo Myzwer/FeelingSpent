@@ -15,6 +15,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'og-type', property: 'og:type', content: 'Spent: Living Content in a Spent World' }, // this is what shows when you post the site
       { hid: 'og-desc', property: 'og:description', content: 'Page Description Im reasonably sure.' },
       { hid: 'og-image', property: 'og:image',
