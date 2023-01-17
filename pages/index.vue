@@ -35,9 +35,10 @@
 					:even="index % 2 === 0"
 				/>
 
-
 			</div>
 		</div>
+
+		<resource-form />
 	</div>
 </template>
 

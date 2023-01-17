@@ -1,81 +1,40 @@
 <template>
 	<div>
-		<form name="contact" method="POST" data-netlify="true">
-			<v-form v-model="valid">
-				<v-container>
-					<v-row>
-						<v-col
-							cols="12"
-							md="6"
-						>
-							<v-text-field
-								v-model="firstname"
-								:rules="nameRules"
-								:counter="10"
-								label="First name"
-								required
-							></v-text-field>
-						</v-col>
-
-						<v-col
-							cols="12"
-							md="6"
-						>
-							<v-text-field
-								v-model="lastname"
-								:rules="nameRules"
-								:counter="10"
-								label="Last name"
-								required
-							></v-text-field>
-						</v-col>
-
-						<v-col
-							cols="12"
-							md="12"
-						>
-							<v-text-field
-								v-model="email"
-								:rules="emailRules"
-								label="E-mail"
-								required
-							></v-text-field>
-						</v-col>
-						<v-col
-							cols="12"
-							md="12"
-							class = "text-left"
-						>
-							<button
-								class="bg-orange hover:bg-red shadow-lg text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-								type="submit">
-								Submit
-							</button>
-						</v-col>
-					</v-row>
-				</v-container>
-			</v-form>
-
-		</form>
+		<div class="grid grid-cols-12">
+			<div class=" col-span-12 md:col-span-6">
+				<div class="form-side-background">.</div>
+			</div>
+			<div class="col-span-12 md:col-span-6">
+				<div class="bg-green">
+					<div class="p-10 text-white">
+						<h2 class = "text-3xl font-bold capitalize">Free Resource</h2>
+						<h3 class = "text-xl font-bold capitalize">3 ways to manage your money better</h3>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 
 <script>
 export default {
 	name: "ResourceForm",
-	data: () => ({
-		valid: false,
-		firstname: '',
-		lastname: '',
-		nameRules: [
-			v => !!v || 'Name is required',
-			v => v.length <= 10 || 'Name must be less than 10 characters',
-		],
-		email: '',
-		emailRules: [
-			v => !!v || 'E-mail is required',
-			v => /.+@.+/.test(v) || 'E-mail must be valid',
-		],
-	}),
 }
 </script>
+
+<style>
+/* stylelint-disable color-function-notation */
+
+.form-side-background {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0%),
+		rgba(0, 0, 0, 0%)
+	), url("~static/images/form-bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+/* stylelint-enable color-function-notation */
+</style>
