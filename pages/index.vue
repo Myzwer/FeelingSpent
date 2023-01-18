@@ -39,16 +39,19 @@
 		</div>
 
 		<resource-form />
+		<image-card />
+
 	</div>
 </template>
 
 <script>
 import budgetList from "~/components/budgetList"
 import {budget} from '~/data/data.json'
+import ImageCard from "~/components/Card";
 
 export default {
 	name: 'IndexPage',
-	components: {budgetList},
+	components: {ImageCard, budgetList},
 	data() {
 		return {
 			budget,
