@@ -1,6 +1,6 @@
 <template>
 	<div class="bg-yellow">
-		<div class="max-w-4xl mx-auto px-5 py-10">
+		<div class="max-w-4xl mx-auto px-5 py-20">
 			<div class="grid grid-cols-12 gap-4">
 				<div class=" col-span-12 md:col-span-6 bg-white rounded-xl shadow-xl card-lock relative">
 					<div class="card-1-background rounded-t-xl relative">

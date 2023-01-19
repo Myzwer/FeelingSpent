@@ -6,7 +6,7 @@
 			</div>
 			<div class="col-span-12 md:col-span-6">
 				<div class="bg-green">
-					<div class="p-10 text-white">
+					<div class="p-5 md:p-10 text-white">
 						<h2 class = "text-3xl font-bold capitalize">Free Resource</h2>
 						<h3 class = "text-xl font-bold capitalize">3 ways to manage your money better</h3>
 					</div>
@@ -34,6 +34,12 @@ export default {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
+}
+
+@media screen and (max-width: 39.9375em) {
+	.form-side-background {
+		height: 300px;
+	}
 }
 
 /* stylelint-enable color-function-notation */
