@@ -40,6 +40,7 @@
 
 		<resource-form />
 		<image-card />
+		<InviteSection />
 
 	</div>
 </template>
