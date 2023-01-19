@@ -17,10 +17,10 @@
 					<p class="md:text-center text-xl pb-10">(After Taxes)</p>
 					<div class="text-center mx-auto">
 						<input
-							v-model="number"
+							v-model.number="userTotal"
 							class="shadow-lg bg-white rounded-xl w-full py-5 px-3 mx-auto text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 							type="number"
-							placeholder="Enter Yearly Salary"
+							placeholder="Enter Monthly Salary"
 						/>
 					</div>
 				</div>
@@ -31,7 +31,7 @@
 					:line-item="item.lineItem"
 					:display-percent="item.displayPercent"
 					:icon="item.icon"
-					:cost="item.cost"
+					:total="userTotal"
 					:even="index % 2 === 0"
 				/>
 
@@ -55,7 +55,8 @@ export default {
 	data() {
 		return {
 			budget,
-			number: null,
+			userTotal: null,
+			total: null,
 		}
 	},
 	head() {

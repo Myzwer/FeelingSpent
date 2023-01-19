@@ -4,13 +4,13 @@
       "lineItem": "Miscellaneous",
       "displayPercent": 25,
       "icon": "/images/icons/house.png",
-      "cost": 2500
+      "total": null
     },
     {
       "lineItem": "Savings",
       "displayPercent": 15,
       "icon": "/images/icons/dollar.png",
-      "cost": 1500
+      "total": null
     }
   ]
 }

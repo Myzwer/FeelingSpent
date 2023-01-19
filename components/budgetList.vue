@@ -22,7 +22,7 @@
 
 				<div class="col-span-2 relative">
 					<div class="inline-block absolute top-5 right-2 md:right-5">
-						<h3 class="font-bold text-lg md:text-2xl">${{ cost }}</h3>
+						<h3 class="font-bold text-lg md:text-2xl">${{ budgetPercent }}</h3>
 					</div>
 				</div>
 			</div>
@@ -50,10 +50,18 @@ export default {
 			type: String,
 			required: true,
 		},
-		cost: {
+		total: {
 			type: Number,
-			required: true,
+			required: false,
+			default: null
 		},
+
 	},
+	computed: {
+		budgetPercent() {
+			const budgetAmount = this.total * (this.displayPercent / 100)
+			return Math.round(budgetAmount);
+		}
+	}
 }
 </script>
