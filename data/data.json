@@ -1,16 +1,64 @@
 {
   "budget": [
     {
-      "lineItem": "Miscellaneous",
+      "lineItem": "Housing Costs",
       "displayPercent": 25,
-      "icon": "/images/icons/house.png",
-      "total": null
+      "icon": "/images/icons/house.png"
     },
     {
       "lineItem": "Savings",
       "displayPercent": 15,
-      "icon": "/images/icons/dollar.png",
-      "total": null
+      "icon": "/images/icons/dollar.png"
+    },
+    {
+      "lineItem": "Food",
+      "displayPercent": 12,
+      "icon": "/images/icons/food.png"
+    },
+    {
+      "lineItem": "Childcare",
+      "displayPercent": 12,
+      "icon": "/images/icons/childcare.png"
+    },
+    {
+      "lineItem": "Giving",
+      "displayPercent": 10,
+      "icon": "/images/icons/giving.png"
+    },
+    {
+      "lineItem": "Miscellaneous",
+      "displayPercent": 5,
+      "icon": "/images/icons/misc.png"
+    },
+    {
+      "lineItem": "Insurance",
+      "displayPercent": 4,
+      "icon": "/images/icons/misc.png"
+    },
+    {
+      "lineItem": "Utilities",
+      "displayPercent": 4,
+      "icon": "/images/icons/utilities.png"
+    },
+    {
+      "lineItem": "Personal Spending",
+      "displayPercent": 4,
+      "icon": "/images/icons/personal.png"
+    },
+    {
+      "lineItem": "Entertainment",
+      "displayPercent": 4,
+      "icon": "/images/icons/entertainment.png"
+    },
+    {
+      "lineItem": "Transportation",
+      "displayPercent": 3,
+      "icon": "/images/icons/transportation.png"
+    },
+    {
+      "lineItem": "Health",
+      "displayPercent": 2,
+      "icon": "/images/icons/health.png"
     }
   ]
 }
