@@ -33,7 +33,7 @@
     {
       "lineItem": "Insurance",
       "displayPercent": 4,
-      "icon": "/images/icons/misc.png"
+      "icon": "/images/icons/insurance.png"
     },
     {
       "lineItem": "Utilities",
