@@ -4,7 +4,7 @@ export default {
 
   // Fix Netlify's routing issue with Nuxtc
   generate: {
-    fallback: true
+    fallback: true,
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -16,11 +16,17 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'og-type', property: 'og:type', content: 'Spent: Living Content in a Spent World' }, // this is what shows when you post the site
-      { hid: 'og-desc', property: 'og:description', content: 'Page Description Im reasonably sure.' },
-      { hid: 'og-image', property: 'og:image',
-        content: '/images/spent.jpg'
+      {
+        hid: 'og-type',
+        property: 'og:type',
+        content: 'Spent: Living Content in a Spent World',
+      }, // this is what shows when you post the site
+      {
+        hid: 'og-desc',
+        property: 'og:description',
+        content: 'Page Description Im reasonably sure.',
       },
+      { hid: 'og-image', property: 'og:image', content: '/images/spent.jpg' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -57,28 +63,28 @@ export default {
     '@nuxtjs/tailwindcss',
     // Simple usage
     '@nuxtjs/vuetify',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
   ],
 
   googleFonts: {
     families: {
       'Nerko+One': true,
-      Montserrat: [400, 700, 900]
-    }
+      Montserrat: [400, 700, 900],
+    },
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/'
+    baseURL: '/',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
 }

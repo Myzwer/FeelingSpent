@@ -32,7 +32,7 @@ module.exports = {
       white: {
         DEFAULT: '#E6E2D6',
         pure: '#ffffff',
-        alt: `#FBF7EB`
+        alt: `#FBF7EB`,
       },
       black: {
         DEFAULT: '#333333',
