@@ -48,7 +48,7 @@ export default {
 
 .cta-side-background {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url('~static/images/invite.jpg');
+    url('~static/images/invite-alt.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

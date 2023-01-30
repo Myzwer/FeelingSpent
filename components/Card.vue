@@ -22,8 +22,7 @@
           </div>
 
           <div class="absolute bottom-5 left-5">
-            <a class="text-red uppercase font-bold pr-5" href="#">Register</a>
-            <a class="text-red uppercase font-bold" href="#">Learn More</a>
+            <a class="text-red uppercase font-bold pr-5" href="https://foothillschurch.com/event-financial-peace-university/">Register</a>
           </div>
         </div>
 
@@ -49,8 +48,8 @@
           </div>
 
           <div class="absolute bottom-5 left-5">
-            <a class="text-red uppercase font-bold pr-5" href="#">learn More</a>
-            <a class="text-red uppercase font-bold" href="#">Get Access</a>
+            <a class="text-red uppercase font-bold pr-5" href="https://www.ramseysolutions.com/ramseyplus/everydollar">Learn More</a>
+            <a class="text-red uppercase font-bold" href="https://foothillschurch.churchcenter.com/people/forms/499035">Get Access</a>
           </div>
         </div>
       </div>
