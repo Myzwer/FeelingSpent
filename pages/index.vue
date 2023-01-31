@@ -80,7 +80,7 @@ export default {
         {
           hid: 'og-desc',
           property: 'og:description',
-          content: 'Page Description Im reasonably sure.',
+          content: 'Easy-to-use tools, resources, and opportunities to help you balance your budget and reach your financial goals.',
         },
         {
           hid: 'og-image',
