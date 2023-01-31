@@ -10,7 +10,7 @@
 					v-click-outside="onClickOutside"
 					class = "bg-green p-10 rounded-xl shadow-xl">
 					<h1 class="text-3xl text-bold">Success!</h1>
-					<p>Our 5 Ways to Manage Your Money Better Resources is in your inbox!</p>
+					<p>Our 5 Ways to Manage Your Money Better Resources will be in your inbox shortly!</p>
 				</div>
 				<div
 					class="absolute top-3 right-5 cursor-pointer"
@@ -27,9 +27,9 @@
 			<div class="col-span-12 md:col-span-6">
 				<div class="bg-green">
 					<div class="p-5 md:p-10 text-white">
-						<h2 class="text-3xl font-bold capitalize">Free Resource</h2>
+						<h2 class="text-3xl font-bold capitalize">Free Resource!</h2>
 						<h3 class="text-xl font-bold capitalize pb-10">
-							3 ways to manage your money better
+							5 ways to manage your money better
 						</h3>
 
 						<div class="form">
@@ -49,7 +49,7 @@
 									<span>Email</span>
 									<input v-model="email" type="email" name="email"/>
 								</label>
-								<button type="submit">Submit</button>
+								<button type="submit">Get My Free Resource</button>
 							</form>
 						</div>
 					</div>
