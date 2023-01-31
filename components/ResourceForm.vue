@@ -105,14 +105,14 @@ export default {
 
 .form-side-background {
 	background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-	url('~static/images/form-bg.jpg');
+	url('~static/images/mockup.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
 }
 
-@media screen and (max-width: 39.9375em) {
+@media screen and (max-width: 1020px) {
 	.form-side-background {
 		height: 300px;
 	}
