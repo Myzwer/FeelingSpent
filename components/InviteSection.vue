@@ -16,16 +16,16 @@
             <div class="mt-10 md:inline-block">
               <a
                 href="https://foothillschurch.com/find-a-location/maryville/"
-                class="bg-orange text-black uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 mr-5 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl"
-                >Explore Maryville</a
-              >
+                class="bg-orange text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 mr-5 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl"
+                >Explore Maryville
+			  </a>
             </div>
             <div class="my-10 md:inline-block">
               <a
                 href="https://foothillschurch.com/find-a-location/knoxville/"
-                class="bg-orange text-black uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl"
-                >Explore Knoxville</a
-              >
+                class="bg-orange text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl"
+                >Explore Knoxville
+			  </a>
             </div>
           </div>
         </div>
