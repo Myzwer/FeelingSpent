@@ -9,7 +9,7 @@
             class="text-center mx-auto fc-logo p-3 inline"
           />
           <div class="absolute top-6 left-20">
-            <h1 class="text-white-pure text-2xl font-bold">SPENT</h1>
+            <h1 class="text-white-pure text-2xl font-bold">FOOTHILLS CHURCH</h1>
           </div>
         </div>
       </nuxt-link>

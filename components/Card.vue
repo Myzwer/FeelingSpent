@@ -14,7 +14,7 @@
           </div>
           <div class="p-5">
             <h3>February 18-20</h3>
-            <h2 class="font-bold">Foothills Church Maryville Location</h2>
+            <h2 class="font-bold">Foothills Church - Maryville Location</h2>
             <p class="pt-5">
               Join us for Dave Ramsay’s FPU, where you can learn to take control
               of your money and take back your life.
