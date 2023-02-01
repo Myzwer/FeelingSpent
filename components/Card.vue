@@ -32,7 +32,7 @@
           <div class="card-2-background rounded-t-xl relative">
             <div class="absolute bottom-5 left-5">
               <h2 class="font-bold text-white capitalize text-xl">
-                Everydollar Budgeting Software
+                EveryDollar Budgeting Software
               </h2>
             </div>
           </div>
